@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.nav-btn{
+    @apply text-gray-900 mx-3 px-1 my-4 m-2 text-sm outline-none text-center md:my-1 focus:border-b-4 border-secondary hover:text-secondary;
+}
+.card{
+    @apply px-4 py-4 rounded overflow-hidden shadow-xl relative;
+  }
+  .link{
+    @apply px-2 py-1 m-1 text-sm outline-none text-center rounded md:my-3 hover:text-secondary focus:bg-secondary focus:text-primary;
+  }
